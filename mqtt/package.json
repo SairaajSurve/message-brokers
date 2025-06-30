@@ -1,0 +1,27 @@
+{
+  "name": "mqtt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SairaajSurve/mqtt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SairaajSurve/mqtt/issues"
+  },
+  "homepage": "https://github.com/SairaajSurve/mqtt#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mqtt": "^4.3.4",
+    "socket.io": "^4.4.1"
+  }
+}
